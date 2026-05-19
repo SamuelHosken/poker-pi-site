@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChipLogo } from "@/components/ui/chip-logo";
+import { Logo } from "@/components/ui/logo";
 import { useScrolled } from "@/hooks/use-scrolled";
 import { cn } from "@/lib/cn";
 
@@ -18,10 +18,10 @@ export function Nav() {
     >
       <Link
         href="/"
-        className="flex items-center gap-2.5 font-display text-[18px] font-semibold tracking-[-0.01em] text-white no-underline"
+        aria-label="Poker Pi · página inicial"
+        className="flex items-center no-underline"
       >
-        <ChipLogo size={26} />
-        POKERPI
+        <Logo height={22} priority />
       </Link>
 
       <div className="flex items-center gap-1.5 font-mono text-[10px] tracking-[0.12em] uppercase text-gray-soft">
