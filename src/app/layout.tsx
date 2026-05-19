@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import { event } from "@/content/event";
 import { VideoModalProvider } from "@/components/providers/video-modal-provider";
+import { DesktopMessage } from "@/components/layout/desktop-message";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -89,7 +90,12 @@ export default function RootLayout({
       className={`${fraunces.variable} ${geist.variable} ${geistMono.variable}`}
     >
       <body className="antialiased">
-        <VideoModalProvider>{children}</VideoModalProvider>
+        <VideoModalProvider>
+          {/* Desktop / tablet: redirect-to-phone message */}
+          <DesktopMessage />
+          {/* Mobile: full site experience */}
+          <div className="md:hidden">{children}</div>
+        </VideoModalProvider>
       </body>
     </html>
   );

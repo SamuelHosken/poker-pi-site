@@ -56,7 +56,7 @@ export const event = {
 
   contact: {
     pixKey: "pokerpi2026@gmail.com",
-    whatsappUrl: "https://wa.me/",
+    whatsappUrl: "https://chat.whatsapp.com/KJmiMjtr2a26tgr8Tz0Zn9?mode=gi_t",
     organizerName: "João",
   },
 

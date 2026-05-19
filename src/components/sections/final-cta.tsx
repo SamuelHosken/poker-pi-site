@@ -24,19 +24,19 @@ export function FinalCta() {
           .
         </h2>
         <p className="mx-auto mb-8 max-w-[340px] text-[14px] font-light leading-[1.6] text-gray-soft">
-          {event.capacity} vagas, por ordem de pagamento. Faça o PIX e mande o
-          comprovante no WhatsApp.
+          {event.capacity} vagas, por ordem de pagamento. Entra no grupo do
+          WhatsApp e manda o comprovante.
         </p>
 
         <div className="mx-auto flex max-w-[340px] flex-col gap-3">
-          {/* Primary CTA — WhatsApp */}
+          {/* Primary CTA — WhatsApp group */}
           <a
             href={event.contact.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex w-full items-center justify-center gap-2 bg-gold px-6 py-4 font-sans text-[14px] font-medium tracking-[0.04em] uppercase text-ink no-underline transition-all duration-[250ms] hover:-translate-y-0.5 hover:bg-white"
           >
-            Garantir minha vaga
+            Entrar no grupo do WhatsApp
             <ArrowRight className="h-4 w-4" strokeWidth={2} />
           </a>
 

@@ -83,12 +83,12 @@ export function HowToRegister() {
 
         {/* Step 03 */}
         <Reveal delay={0.1}>
-          <Step num="03" title="Envie o comprovante">
-            Mande o comprovante no{" "}
+          <Step num="03" title="Entre no grupo">
+            Entre no{" "}
             <strong className="font-medium text-white">
-              WhatsApp do {event.contact.organizerName}
-            </strong>
-            . Após a confirmação, sua vaga está garantida.
+              grupo do WhatsApp
+            </strong>{" "}
+            e mande o comprovante. Após a confirmação, sua vaga está garantida.
             <br />
             <a
               href={event.contact.whatsappUrl}
@@ -97,7 +97,7 @@ export function HowToRegister() {
               className="mt-4 inline-flex items-center gap-2 bg-gold px-5 py-3 font-sans text-[13px] font-semibold tracking-[0.04em] uppercase text-ink no-underline transition-all duration-[250ms] hover:-translate-y-0.5 hover:bg-white"
             >
               <WhatsAppIcon className="h-4 w-4" />
-              Abrir conversa
+              Entrar no grupo
             </a>
           </Step>
         </Reveal>

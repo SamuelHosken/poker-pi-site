@@ -9,7 +9,7 @@ export function Hero() {
   return (
     <section
       aria-labelledby="hero-title"
-      className="relative isolate flex min-h-svh flex-col overflow-hidden bg-ink page-pad pt-28 pb-0 md:pt-24"
+      className="relative isolate flex min-h-svh flex-col overflow-hidden bg-ink page-pad pt-20 pb-0 md:pt-24"
     >
       {/* ============ MOBILE-ONLY BG VIDEO + OVERLAYS ============ */}
       <video
@@ -121,7 +121,7 @@ export function Hero() {
         type="button"
         onClick={openModal}
         aria-label="Assistir o convite em vídeo"
-        className="group relative z-10 flex flex-1 cursor-pointer items-end justify-center bg-transparent pb-20 md:hidden"
+        className="group relative z-10 flex flex-1 cursor-pointer items-end justify-center bg-transparent pb-8 md:hidden"
       >
         <span className="inline-flex items-center gap-3 rounded-full border border-line/70 bg-ink/45 px-6 py-3.5 font-mono text-[11px] tracking-[0.28em] uppercase text-paper backdrop-blur-md transition-all duration-300 motion-safe:[animation:label-pulse_3s_ease-in-out_infinite] group-hover:border-gold group-hover:bg-gold/15 group-hover:text-white group-hover:[animation:none]">
           <span
