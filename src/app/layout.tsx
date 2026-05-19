@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import { event } from "@/content/event";
+import { siteUrl } from "@/lib/site-url";
 import { VideoModalProvider } from "@/components/providers/video-modal-provider";
 import { DesktopMessage } from "@/components/layout/desktop-message";
 import "./globals.css";
@@ -28,7 +29,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pokerpi.com.br"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: `${event.name} — 23 de maio · Jardim Botânico`,
     template: `%s · ${event.name}`,
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://pokerpi.com.br",
+    url: siteUrl,
     siteName: event.name,
     title: `${event.name} — O poker mais irado da sua vida`,
     description:

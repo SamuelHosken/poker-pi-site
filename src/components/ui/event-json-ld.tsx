@@ -1,4 +1,5 @@
 import { event } from "@/content/event";
+import { siteUrl } from "@/lib/site-url";
 
 /**
  * Schema.org `Event` rich result. Helps Google surface the event in SERP.
@@ -31,12 +32,12 @@ export function EventJsonLd() {
       priceCurrency: "BRL",
       availability: "https://schema.org/InStock",
       validThrough: event.registrationDeadline,
-      url: "https://pokerpi.com.br/#inscricao",
+      url: `${siteUrl}/#inscricao`,
     })),
     organizer: {
       "@type": "Organization",
       name: event.name,
-      url: "https://pokerpi.com.br",
+      url: siteUrl,
     },
     maximumAttendeeCapacity: event.capacity,
   } as const;
