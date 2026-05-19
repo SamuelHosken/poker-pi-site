@@ -8,15 +8,15 @@ export function About() {
     <section id="sobre" className="page-pad py-[72px]" aria-labelledby="sobre-title">
       <SectionHeader
         num="01"
-        label="O que é o Poker Pi"
+        label="O que vai rolar"
         title={
           <>
             <span id="sobre-title">
-              O poker não é
+              Não é só poker.
               <br />
-              jogo. É{" "}
+              É um{" "}
               <em className="font-display not-italic italic text-gold" style={{ fontStyle: "italic" }}>
-                decisão
+                rolê
               </em>
               .
             </span>

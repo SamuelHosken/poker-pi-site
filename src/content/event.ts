@@ -143,10 +143,10 @@ export const event = {
 
   about: {
     quote:
-      "A diferença entre o jogador recreativo e o profissional não é a sorte. É a frequência com que cada um toma a decisão matematicamente correta.",
+      "O poker vai ser irado. Mas é só uma das partes legais.",
     paragraphs: [
-      "O **Poker Pi** nasceu de uma convicção simples: a de que o poker mereceria ser jogado com a mesma seriedade com que se estuda *matemática, finanças*, ou qualquer ciência da decisão sob incerteza.",
-      "Não é cassino. Não é jogatina. É uma noite de torneio fechado, com regras claras, jantar honesto e uma comunidade que leva o jogo a sério — sem perder o bom humor.",
+      "O **Poker Pi** é antes de tudo um *rolê*. Tem **jantar honesto**, *open bar* (se você quiser), 30 amigos e **duas mesas rodando em paralelo** até a final.",
+      "O torneio dá o ritmo da noite — mas no fim ninguém vai embora falando só do all-in. Vai falar do escondidinho, da última caipirinha, da gargalhada da mesa do lado.",
     ],
   },
 } as const;
