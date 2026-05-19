@@ -53,21 +53,14 @@ export const metadata: Metadata = {
     title: `${event.name} — O poker mais irado da sua vida`,
     description:
       "Torneio fechado em Brasília. 30 vagas por ordem de confirmação.",
-    images: [
-      {
-        url: "/og/cover.jpg",
-        width: 1200,
-        height: 630,
-        alt: event.name,
-      },
-    ],
+    // og:image is auto-generated from src/app/opengraph-image.jpg
   },
   twitter: {
     card: "summary_large_image",
     title: `${event.name} — O poker mais irado da sua vida`,
     description:
       "Torneio fechado em Brasília. 30 vagas por ordem de confirmação.",
-    images: ["/og/cover.jpg"],
+    // twitter:image is auto-generated from src/app/twitter-image.jpg
   },
   alternates: {
     canonical: "/",
